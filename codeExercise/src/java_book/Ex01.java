@@ -1,7 +1,7 @@
 //수업자료코드
-package java_jungol;
+package java_book;
 
-public class Ex03 {
+public class Ex01 {
 	public static void main(String[] args) {
 		byte var1 = -128;
 		byte var2 = -30;
