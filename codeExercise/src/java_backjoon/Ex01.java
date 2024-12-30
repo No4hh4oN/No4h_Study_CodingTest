@@ -1,4 +1,4 @@
-//2741 N찍기
+//백준-2741번-N찍기
 package java_backjoon;
 
 import java.util.Scanner;
