@@ -16,7 +16,8 @@ public class Ex17 {
 		stu1.setSchool(schoolString);
 
 		stu1.grade = sc.nextInt();
-
+		sc.close();
+		
 		System.out.println("Name : " + stu1.getName());
 		System.out.println("School : " + stu1.getSchool());
 		System.out.println("Grade : " + stu1.grade);
