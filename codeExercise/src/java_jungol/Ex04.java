@@ -1,3 +1,4 @@
+// 정올-선택제어문-자가진단1 #528
 package java_jungol;
 
 import java.util.Scanner;
