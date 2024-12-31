@@ -1,3 +1,4 @@
+// 정올-입력-자가진단1 #509
 package java_jungol;
 
 public class Ex03 {
