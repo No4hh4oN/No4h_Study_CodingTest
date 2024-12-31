@@ -8,16 +8,16 @@ public class Ex07 {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[100];
 		int N = 0;
-		
-		while(true) {
+
+		while (true) {
 			arr[N] = sc.nextInt();
-			if(arr[N] == 0)
+			if (arr[N] == 0)
 				break;
 			N++;
 		}
 		sc.close();
 
-		for(int j = N-1; j >= 0; j--) {
+		for (int j = N - 1; j >= 0; j--) {
 			System.out.print(arr[j] + " ");
 		}
 	}
