@@ -7,14 +7,14 @@ public class Ex07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[100];
-		int i = 0;
+		int N = 0;
 		while(true) {
-			arr[i] = sc.nextInt();
-			if(arr[i] == 0)
+			arr[N] = sc.nextInt();
+			if(arr[N] == 0)
 				break;
-			i++;
+			N++;
 		}
-		for(int j = i-1; j >= 0; j--) {
+		for(int j = N-1; j >= 0; j--) {
 			System.out.print(arr[j] + " ");
 		}
 	}
