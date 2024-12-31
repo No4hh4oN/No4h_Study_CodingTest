@@ -7,8 +7,7 @@ public class Ex08_Main {
 		Scanner sc = new Scanner(System.in);
 		Ex08_Student student = new Ex08_Student();
 		
-		student.setSchool(sc.next());
-		student.setGrade(sc.nextInt());;
+		student.setStudent(sc.next(), sc.nextInt());
 		sc.close();
 		
 		System.out.println(student.grade + " grade in "+ student.school + " School");

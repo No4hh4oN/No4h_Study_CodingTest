@@ -7,16 +7,13 @@ public class Ex08_Student {
 	private String varSchool;
 	private int varGrade;
 	
-	public void setSchool(String school) {
+	public void setStudent(String school, int grade) {
 		this.varSchool = school;
+		this.varGrade = grade;
 	}
 	
 	public String getSchool() {
 		return varSchool;
-	}
-	
-	public void setGrade(int grade) {
-		this.varGrade = grade;
 	}
 	
 	public int getGrade() {
