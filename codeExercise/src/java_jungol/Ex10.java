@@ -7,19 +7,17 @@ public class Ex10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		A strA = new A();
-		String str = strA.Function1();
-
 		int N = sc.nextInt();
 		sc.close();
+
 		for (int i = 0; i < N; i++) {
-			System.out.println(str);
+			strA.Function1();
 		}
 	}
 }
 
 class A {
-	public String Function1() {
-		String str = "~!@#$^&*()_+|";
-		return str;
+	public void Function1() {
+		System.out.println("~!@#$^&*()_+|");
 	}
 }
