@@ -1,11 +1,12 @@
+// 구조체-자가진단2 #614
 package java_jungol;
 
 import java.util.Scanner;
 
-public class Ex08_Main {
+public class Ex09_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Ex08_Student student = new Ex08_Student();
+		Ex09_Student student = new Ex09_Student();
 		
 		student.setStudent(sc.next(), sc.nextInt());
 		sc.close();

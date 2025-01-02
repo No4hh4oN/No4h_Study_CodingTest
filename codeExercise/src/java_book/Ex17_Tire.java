@@ -1,6 +1,6 @@
 package java_book;
 
-public class Ex18_Tire {
+public class Ex17_Tire {
 	private int size;
 
 	public int getSize() {

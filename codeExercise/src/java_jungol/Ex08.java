@@ -1,9 +1,9 @@
 // 정올-구조체-자가진단1 #613
-package java_book;
+package java_jungol;
 
 import java.util.Scanner;
 
-public class Ex17 {
+public class Ex08 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StudentInfo stu1 = new StudentInfo();

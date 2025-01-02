@@ -1,22 +1,26 @@
 package java_book;
 
 public class Ex20 {
-	int plus(int x, int y) {
-		int result = x + y;
-		return result;
+	public static void main(String[]args) {
+		Person p1 = new Person("123456-1234567", "KyeBaek");
+		
+		System.out.println(p1.nation);
+		System.out.println(p1.ssn);
+		System.out.println(p1.name);
+		
+		// p1.nation ="USA"; Final 필드는 못바꿔
+		// p1.ssn = "654321-7654321";
+		p1.name = "LeeSoonsin";
 	}
+}
 
-	double plus(double x, double y) {
-		double result = x + y;
-		return result;
-	}
-
-	public static void main(String[] args) {
-		Ex20 calEx20 = new Ex20();
-		int res1 = calEx20.plus(5, 10);
-		double res2 = calEx20.plus(10.5, 20.3);
-
-		System.out.println(res1);
-		System.out.println(res2);
+class Person {
+	final String nation = "Korea";
+	final String ssn;
+	String name;
+	
+	public Person(String ssn, String name) {
+		this.ssn = ssn;
+		this.name = name;
 	}
 }

@@ -1,6 +1,7 @@
+// 구조체-자가진단2 #614
 package java_jungol;
 
-public class Ex08_Student {
+public class Ex09_Student {
 	String school = "Jejuelementary";
 	int grade = 6;
 
