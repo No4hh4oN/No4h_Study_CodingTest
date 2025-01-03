@@ -7,25 +7,49 @@ public class Ex29 {
 		for(int i = 0; i < 5; i++) {
 			int problemLocation = car.run();
 			
+//			switch (problemLocation){
+//			case 1: {
+//				System.out.println("앞 왼쪽 HankookTire로 교체");
+//				car.frontLeftTire = new HankookTire("앞왼쪽", 15);
+//				break;
+//			}
+//			case 2: {
+//				System.out.println("앞 오른쪽 HankookTire로 교체");
+//				car.frontRightTire = new HankookTire("앞오른쪽", 13);
+//				break;
+//			}
+//			case 3: {
+//				System.out.println("뒤 왼쪽 HankookTire로 교체");
+//				car.backLeftTire = new HankookTire("뒤왼쪽", 14);
+//				break;
+//			}
+//			case 4: {
+//				System.out.println("앞 왼쪽 HankookTire로 교체");
+//				car.backRightTire = new HankookTire("뒤오른쪽", 17);
+//				break;
+//			}
+//			}
+//			
+//			객체 배열로 만듦
 			switch (problemLocation){
 			case 1: {
 				System.out.println("앞 왼쪽 HankookTire로 교체");
-				car.frontLeftTire = new HankookTire("앞왼쪽", 15);
+				car.tires[0]= new HankookTire("앞왼쪽", 15);
 				break;
 			}
 			case 2: {
 				System.out.println("앞 오른쪽 HankookTire로 교체");
-				car.frontRightTire = new HankookTire("앞오른쪽", 13);
+				car.tires[1] = new HankookTire("앞오른쪽", 13);
 				break;
 			}
 			case 3: {
 				System.out.println("뒤 왼쪽 HankookTire로 교체");
-				car.backLeftTire = new HankookTire("뒤왼쪽", 14);
+				car.tires[2] = new HankookTire("뒤왼쪽", 14);
 				break;
 			}
 			case 4: {
 				System.out.println("앞 왼쪽 HankookTire로 교체");
-				car.backRightTire = new HankookTire("뒤오른쪽", 17);
+				car.tires[3] = new HankookTire("뒤오른쪽", 17);
 				break;
 			}
 			}
@@ -36,11 +60,12 @@ public class Ex29 {
 }
 
 class Car3 {
-	Tire frontLeftTire = new Tire("앞왼쪽", 6);
-	Tire frontRightTire = new Tire("앞오른쪽", 2);
-	Tire backLeftTire = new Tire("뒤왼쪽", 3);
-	Tire backRightTire = new Tire("뒤오른쪽", 4);
-	
+//	Tire frontLeftTire = new Tire("앞왼쪽", 6);
+//	Tire frontRightTire = new Tire("앞오른쪽", 2);
+//	Tire backLeftTire = new Tire("뒤왼쪽", 3);
+//	Tire backRightTire = new Tire("뒤오른쪽", 4);
+//
+//	객체 배열
 	Tire[] tires = {
 			new Tire("앞왼쪽", 6),
 			new Tire("앞오른쪽", 2),
@@ -64,6 +89,7 @@ class Car3 {
 //		if(backRightTire.roll() == false) {
 //			stop(); return 4;
 //		}
+//		객체 배열
 		for(int i = 0; i < tires.length; i++) {
 			if(tires[i].roll() == false) {
 				stop();
