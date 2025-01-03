@@ -46,16 +46,16 @@ public class Ex12 {
 		int avgKor = 0;
 		int avgEng = 0;
 		StuInfo stu[] = new StuInfo[N];
-		for (int i = 0; i < N; i++) {
+		for (int i = 0; i < stu.length; i++) {
 			stu[i] = new StuInfo(sc.next(), sc.nextInt(), sc.nextInt());
 		}
 		sc.close();
 
-		for (int i = 0; i < N; i++) {
+		for (int i = 0; i < stu.length; i++) {
 			System.out.println(stu[i].name + " " + stu[i].korScore + " " + stu[i].engScore);
 		}
 
-		for (int i = 0; i < N; i++) {
+		for (int i = 0; i < stu.length; i++) {
 			avgKor += stu[i].korScore;
 			avgEng += stu[i].engScore;
 		}
