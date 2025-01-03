@@ -1,3 +1,4 @@
+//백준1193-분수찾기
 package java_backjoon;
 
 import java.util.Scanner;
