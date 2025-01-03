@@ -7,7 +7,8 @@ public class Ex07 {
 		Scanner sc = new Scanner(System.in);
 
 		int x = sc.nextInt(); // 입력 값
-
+		sc.close();
+		
 		int i = 1;
 		int cnt = 1;
 		
