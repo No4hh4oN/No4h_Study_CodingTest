@@ -3,7 +3,7 @@ package java_backjoon;
 
 import java.util.Scanner;
 
-public class Ex10 {
+public class Ex11 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] stuList = new int[5];
@@ -15,7 +15,6 @@ public class Ex10 {
 			}
 			avg += stuList[i];
 		}
-		sc.close();
 		System.out.println(avg/stuList.length);
 	}
 }
