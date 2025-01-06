@@ -1,3 +1,4 @@
+//정올-연산자-자가진단1 #518
 package java_jungol;
 
 import java.util.Scanner;
