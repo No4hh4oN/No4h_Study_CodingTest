@@ -17,6 +17,13 @@ public class Ex32 {
 		} else {
 			System.out.println("obj1과 obj2는 동등하지 않습니다.");
 		}
+		
+		obj1.id = "Yellow";
+		
+		System.out.println(obj1.id);
+		System.out.println(obj2.id);
+		System.out.println(obj3.id);
+		
 	}
 }
 
