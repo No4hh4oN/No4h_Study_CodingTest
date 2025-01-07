@@ -10,20 +10,17 @@ public class Ex15 {
 		int num1 = 2;
 		int num2 = 7;
 		sc.close();
-		if (N == 1) {
-			System.out.println("1");
-		}
-		
-		else {
-			for (int i = 1;; i++) {
-				if (num1 <= N && N <= num2) {
-					System.out.println(i+1);
-					break;
-				}
-				else {
-					num1 += 6 * i;
-					num2 += 6 * (i+1);
-				}
+
+		for (int i = 1;; i++) {
+			if (N == 1) {
+				System.out.println("1");
+				break;
+			} else if (num1 <= N && N <= num2) {
+				System.out.println(i + 1);
+				break;
+			} else {
+				num1 += 6 * i;
+				num2 += 6 * (i + 1);
 			}
 		}
 	}
