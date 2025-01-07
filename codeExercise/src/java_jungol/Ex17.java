@@ -7,6 +7,7 @@ public class Ex17 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		BMI(sc.nextInt(), sc.nextInt());
+		sc.close();
 	}
 	
 	static void BMI(int n1, int n2) {
