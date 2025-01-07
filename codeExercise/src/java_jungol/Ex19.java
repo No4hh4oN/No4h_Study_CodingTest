@@ -8,6 +8,7 @@ public class Ex19 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		int N = sc.nextInt();
+		sc.close();
 		
 		if(N > str.length())
 			N = str.length();
