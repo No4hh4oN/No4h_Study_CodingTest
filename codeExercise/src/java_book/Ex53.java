@@ -33,10 +33,13 @@ public class Ex53 {
 		wizard.attack(wizard.name, enemyWarrior.name);
 		wizard.healing(wizard.name, warrior.name);
 
-		System.out.println("==============================");
-		System.out.println("Warrior - 무기 : " + warrior.weapon + ", 체력 : " + warrior.hp + ", 기본 공격력 : " + warrior.power);
-		System.out.println("Gladiator - 무기 : " + gladiator.shield + ", 체력 : " + gladiator.hp + ", 기본 공격력 : " + gladiator.power);
-		System.out.println("Wizard - 무기 : " + wizard.heal + ", 체력 : " + wizard.hp + ", 기본 공격력 : " + wizard.power);
+		System.out.println();
+		System.out.println("적팀 항복 블루팀 승리");
+//		System.out.println("==============================");
+//		System.out.println();
+//		System.out.println("Warrior - 무기 : " + warrior.weapon + ", 체력 : " + warrior.hp + ", 기본 공격력 : " + warrior.power);
+//		System.out.println("Gladiator - 무기 : " + gladiator.shield + ", 체력 : " + gladiator.hp + ", 기본 공격력 : " + gladiator.power);
+//		System.out.println("Wizard - 무기 : " + wizard.heal + ", 체력 : " + wizard.hp + ", 기본 공격력 : " + wizard.power);
 	}
 }
 
