@@ -66,10 +66,14 @@ public class Ex48 {
 			if(user[2] == com[0] || user[2] == com[1]) {
 				ball++;
 			}
+			
+			// OUT
 			else if(ball == 0 && strike == 0) {
 				System.out.println("OUT");
 				continue;
 			}
+			
+			// 스트라이크 볼 출력
 			System.out.println(strike + " 스트라이크, " + ball + " 볼");	
 		}
 	}
