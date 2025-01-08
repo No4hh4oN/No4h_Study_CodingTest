@@ -76,5 +76,6 @@ public class Ex48 {
 			// 스트라이크 볼 출력
 			System.out.println(strike + " 스트라이크, " + ball + " 볼");	
 		}
+		sc.close();
 	}
 }
