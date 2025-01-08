@@ -1,3 +1,4 @@
+// 정올-출력-형성평가5 #105
 package java_jungol;
 
 public class Ex21 {
