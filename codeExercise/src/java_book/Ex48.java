@@ -15,14 +15,13 @@ public class Ex48 {
 		// 난수 생성
 		for (int i = 0; i <= 2; i++) {
 			com[i] = (int) (Math.random() * 10);
-			;
+			
 			for (int j = 0; j < i; j++) {
 				if (com[i] == com[j]) {
 					i--;
 					break;
 				}
 			}
-
 		}
 		
 		//스트라이크 볼 판정
