@@ -15,7 +15,9 @@ public class Ex59 {
 		
 		int size = list.size();
 		System.out.println("총 객체수 : " + size);
-		String skillString = list.get(2);
+		
+		String skill = list.get(2);
+		System.out.println("2 : " + skill);
 		System.out.println();
 		
 		for(int i = 0; i < list.size(); i++) {
