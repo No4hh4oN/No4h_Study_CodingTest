@@ -1,4 +1,4 @@
-// 백준-10039-평균 점수
+// 백준-
 package java_backjoon;
 
 import java.util.Scanner;
