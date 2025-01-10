@@ -1,4 +1,4 @@
-// 백준-10828-스택(2. util.Stack 사용)
+// 백준-10828-스택(2. util.Stack 사용) --> 다시 풀 예정
 package java_backjoon;
 
 import java.io.BufferedReader;
