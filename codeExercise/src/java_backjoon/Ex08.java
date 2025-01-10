@@ -4,12 +4,9 @@ package java_backjoon;
 import java.util.Scanner;
 
 public class Ex08 {
-	public static int[] stack;
-	public static int size = 0;
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		int N = sc.nextInt();
 		No4hStack nStack = new No4hStack(N);
 
@@ -37,14 +34,13 @@ public class Ex08 {
 }
 
 class No4hStack {
-	int[] stack;
-	int size = 0;
-	
+	private int[] stack;
+	private int size = 0;
+
 	public No4hStack(int N) {
-		// TODO Auto-generated constructor stub
 		this.stack = new int[N];
 	}
-	
+
 	void push(int X) {
 		if (size >= stack.length) {
 			System.out.println("Stack overflow");
