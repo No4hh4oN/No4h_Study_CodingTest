@@ -23,6 +23,5 @@ public class Ex70 {
 		for (String word : rangeSet) {
 			System.out.println(word);
 		}
-
 	}
 }
