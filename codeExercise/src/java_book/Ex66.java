@@ -1,9 +1,7 @@
 package java_book;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 
 public class Ex66 {
 	public static void main(String[] args) {
