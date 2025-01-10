@@ -1,4 +1,4 @@
-//백준10828  - 스택
+// 백준10828-스택
 package java_backjoon;
 
 import java.util.Scanner;
@@ -9,24 +9,24 @@ public class Ex08 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
+		
 		int N = sc.nextInt();
-		stack = new int[N];
+		No4hStack nStack = new No4hStack(N);
 
 		for (int i = 0; i < N; i++) {
 			String str = sc.next();
 
 			if (str.equals("push")) {
 				int num = sc.nextInt();
-				push(num);
+				nStack.push(num);
 			} else if (str.equals("pop")) {
-				pop();
+				nStack.pop();
 			} else if (str.equals("size")) {
-				size();
+				nStack.size();
 			} else if (str.equals("empty")) {
-				empty();
+				nStack.empty();
 			} else if (str.equals("top")) {
-				top();
+				nStack.top();
 			} else {
 				System.out.println("Error");
 			}
@@ -34,7 +34,18 @@ public class Ex08 {
 		sc.close();
 	}
 
-	static void push(int X) {
+}
+
+class No4hStack {
+	int[] stack;
+	int size = 0;
+	
+	public No4hStack(int N) {
+		// TODO Auto-generated constructor stub
+		this.stack = new int[N];
+	}
+	
+	void push(int X) {
 		if (size >= stack.length) {
 			System.out.println("Stack overflow");
 			return;
@@ -43,7 +54,7 @@ public class Ex08 {
 		size++;
 	}
 
-	static void pop() {
+	void pop() {
 		if (size == 0) {
 			System.out.println("-1");
 		} else {
@@ -52,11 +63,11 @@ public class Ex08 {
 		}
 	}
 
-	static void size() {
+	void size() {
 		System.out.println(size);
 	}
 
-	static void empty() {
+	void empty() {
 		if (size == 0) {
 			System.out.println("1");
 		} else {
@@ -64,7 +75,7 @@ public class Ex08 {
 		}
 	}
 
-	static void top() {
+	void top() {
 		if (size == 0) {
 			System.out.println("-1");
 		} else {
