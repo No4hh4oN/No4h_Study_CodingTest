@@ -9,6 +9,7 @@ public class Ex23 {
 		int p, q;
 		p = sc.nextInt();
 		q = sc.nextInt();
+		sc.close();
 		int num = 1;
 		
 		for(int i = 0; i < p; i++) {
