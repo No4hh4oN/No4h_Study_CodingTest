@@ -44,14 +44,17 @@ public class Ex80 {
 		p2.add(n8);
 		p2.add(n9);
 		p2.add(plus);
+		
 		p2.add(n4);
 		p2.add(n5);
 		p2.add(n6);
 		p2.add(min);
+		
 		p2.add(n1);
 		p2.add(n2);
 		p2.add(n3);
 		p2.add(mul);
+		
 		p2.add(none);
 		p2.add(n0);
 		p2.add(equalButton);
