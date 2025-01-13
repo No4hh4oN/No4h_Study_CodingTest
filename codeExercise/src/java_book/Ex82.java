@@ -1,5 +1,6 @@
 package java_book;
 
+import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.Frame;
 import java.awt.event.ActionEvent;
@@ -7,29 +8,33 @@ import java.awt.event.ActionListener;
 
 public class Ex82 implements ActionListener {
 	private Frame frame;
-	private Button btn1, btn2, btn3, btn4, btn5;
+	private Button[] btn = new Button[5];
+//	private Button btn1, btn2, btn3, btn4, btn5;
 
 	public Ex82() {
 		frame = new Frame("event handler example");
-		btn1 = new Button("Button1");
-		btn2 = new Button("Button2");
-		btn3 = new Button("Button3");
-		btn4 = new Button("Button4");
-		btn5 = new Button("Button5");
+		
+		for(int i = 0; i < btn.length; i++) {
+			btn[i] = new Button("Button" + (i+1));
+		}
 	}
 
 	public void startFrame() {
-		btn1.addActionListener(this);
-		btn2.addActionListener(this);
-		btn3.addActionListener(this);
-		btn4.addActionListener(this);
-		btn5.addActionListener(this);
-
-		frame.add(btn1, "North");
-		frame.add(btn2, "South");
-		frame.add(btn3, "West");
-		frame.add(btn4, "East");
-		frame.add(btn5, "Center");
+		for(int i = 0; i < btn.length; i++) {
+			btn[i].addActionListener(this);
+		}
+		
+//		btn1.addActionListener(this);
+//		btn2.addActionListener(this);
+//		btn3.addActionListener(this);
+//		btn4.addActionListener(this);
+//		btn5.addActionListener(this);
+		
+		frame.add(btn[0], BorderLayout.NORTH);
+		frame.add(btn[1], BorderLayout.SOUTH);
+		frame.add(btn[2], BorderLayout.WEST);
+		frame.add(btn[3], BorderLayout.EAST);
+		frame.add(btn[4], BorderLayout.CENTER);
 
 		frame.setSize(300, 300);
 		frame.setVisible(true);
@@ -53,7 +58,7 @@ public class Ex82 implements ActionListener {
 			System.out.println("Button 5 Click!");
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Ex82 g = new Ex82();
 		g.startFrame();
