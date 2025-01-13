@@ -5,7 +5,6 @@ import java.awt.FlowLayout;
 import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
 
 public class Ex87 extends WindowAdapter {
 	private Frame f;
