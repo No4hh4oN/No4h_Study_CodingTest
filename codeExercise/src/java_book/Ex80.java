@@ -7,13 +7,13 @@ import java.awt.Frame;
 import java.awt.Panel;
 import java.awt.TextField;
 
-public class Ex79 {
+public class Ex80 {
 	private Frame f;
 	private Panel p;
 	private Button ok, cancel;
 	private TextField tf1;
 	
-	public Ex79() {
+	public Ex80() {
 		f = new Frame("Panel example");
 		ok = new Button("전송");
 		cancel = new Button("삭제");
@@ -34,7 +34,7 @@ public class Ex79 {
 	}
 	
 	public static void main(String[] arsg) {
-		Ex79 g = new Ex79();
+		Ex80 g = new Ex80();
 		g.startFrame();
 	}
 	
