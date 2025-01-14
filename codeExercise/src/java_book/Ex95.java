@@ -3,10 +3,8 @@ package java_book;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Frame;
-import java.awt.event.WindowAdapter;
 
-public class Ex95 extends WindowAdapter {
-
+public class Ex95{
 	public static void main(String[] args) {
 		Frame f = new Frame("Canvas Test");
 		f.setSize(300, 200);
@@ -19,5 +17,4 @@ public class Ex95 extends WindowAdapter {
 		f.add(c);
 		f.setVisible(true);
 	}
-
 }
