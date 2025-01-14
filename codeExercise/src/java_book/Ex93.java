@@ -3,7 +3,7 @@ package java_book;
 import java.awt.Frame;
 import java.awt.Label;
 
-public class Ex92 {
+public class Ex93 {
 	public static void main(String[] args) {
 		Frame f = new Frame("Login");
         f.setSize(300, 200);
