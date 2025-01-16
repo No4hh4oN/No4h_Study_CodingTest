@@ -12,8 +12,6 @@ public class Ex000_Lunch {
 
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
-		scanner.close();
-
 		System.out.println("스페이스바(Enter 키)를 눌러 멈춰주세요!");
 
 		while (true) {
@@ -28,6 +26,8 @@ public class Ex000_Lunch {
 			}
 		}
 
+		scanner.close();
+
 		System.out.println("\n결정된 메뉴: " + lunchOptions[random.nextInt(lunchOptions.length)]);
 	}
-}
+} 
