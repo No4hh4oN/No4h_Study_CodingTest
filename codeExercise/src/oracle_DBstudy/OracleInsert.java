@@ -1,4 +1,4 @@
-package oracle_Java;
+package oracle_DBstudy;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
