@@ -1,4 +1,4 @@
-package oracleJava.dao;
+package oracle_Java.dao;
 
 public class MemberVo {
 	private String empno;
