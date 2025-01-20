@@ -61,7 +61,7 @@ public class Ex13 {
         dp[0][1] = cost[0][1];
         dp[0][2] = cost[0][2];
 
-        // DP 테이블 채우기
+        // DP 테이블 채우기(피보나치의 형태, 이전 값으로 DP 초기화한 후 현재 가르키는 코스트와 같은 인덱스가 아닌 것 중 최솟값과 더해서 DP에 저장 <- 반복)
         for (int i = 1; i < N; i++) {
             dp[i][0] = cost[i][0] + Math.min(dp[i - 1][1], dp[i - 1][2]);
             dp[i][1] = cost[i][1] + Math.min(dp[i - 1][0], dp[i - 1][2]);
