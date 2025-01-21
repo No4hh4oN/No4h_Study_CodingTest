@@ -6,6 +6,7 @@ public class Ex30 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n1 = sc.nextInt();
+		sc.close();
 		circle(n1);
 	}
 	
