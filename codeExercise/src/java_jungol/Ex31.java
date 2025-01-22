@@ -9,6 +9,7 @@ public class Ex31 {
 		for(int i = 0; i < 10; i++) {
 			arr[i] = sc.nextInt();
 		}
+		sc.close();
 		int MIN = 1001;
 		for(int i = 0; i < 10; i++) {
 			if(arr[i] < MIN)
