@@ -9,7 +9,7 @@ public class Ex02 {
 		int sc = sc2.nextInt();
 		sc2.close();
 
-		//If 조건문을 이용한 계산
+		// If 조건문을 이용한 계산
 		if (sc <= 100 && sc >= 90) {
 			System.out.println("A");
 		} else if (sc >= 80) {
@@ -21,7 +21,7 @@ public class Ex02 {
 		} else {
 			System.out.println("F");
 		}
-		
+
 //		//Switch-Case를 이용한 계산
 //		switch(sc/10) {
 //		case 9: case 10:
