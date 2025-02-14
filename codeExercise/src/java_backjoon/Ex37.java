@@ -27,7 +27,6 @@ public class Ex37 {
 			System.out.print("1");
 		}
 		for (int i = indexKBS1; i > 0; i--) {
-			String temp = "";
 			 
 			System.out.print("4");
 		}
@@ -38,6 +37,7 @@ public class Ex37 {
 		for (int i = indexKBS2; i > 1; i--) {
 			System.out.print("4");
 		}
+		sc.close();
 
 	}
 }
