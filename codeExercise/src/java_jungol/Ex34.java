@@ -13,5 +13,6 @@ public class Ex34 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }
