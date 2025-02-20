@@ -22,5 +22,7 @@ public class Ex37 {
         for(int i = 0; i < charArray.length; i++) {
         	System.out.println(strInput[i]);
         }
+        
+        scanner.close();
     }
 }
