@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ex000_Lunch {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		String[] lunchOptions = { "맘스터치", "토리코코로", "몽키파스타", "편의점", "홍원", "주떡", "돈까스", "청와삼대", "세상만사감자탕(뼈해장국)", "꿈떡",
-				"중국관", "창부리또", "쌀국수공방", "다람이임자탕(채식)", "최고집해물찜칼국수", "배달", "덮밥" };
+				"중국관", "창부리또", "쌀국수공방", "다람이임자탕(채식)", "최고집해물찜칼국수", "배달", "출구 없는 덮밥" };
 
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
