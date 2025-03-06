@@ -11,7 +11,7 @@ public class Ex45 {
         int[] count = new int[N];
 
         for (int i = 0; i < N; i++) {
-            int row = sc.nextInt();
+//            int row = sc.nextInt(); 불필요한 수, 하지만 문제 요구사항
             hLine[i] = new int[20];
             for (int j = 0; j < 20; j++) {
                 hLine[i][j] = sc.nextInt();
