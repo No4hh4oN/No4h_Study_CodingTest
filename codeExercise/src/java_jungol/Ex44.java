@@ -11,6 +11,7 @@ public class Ex44 {
 		InfoPerson[] infoPerson = { new InfoPerson(scanner.next(), scanner.next(), scanner.next()),
 				new InfoPerson(scanner.next(), scanner.next(), scanner.next()),
 				new InfoPerson(scanner.next(), scanner.next(), scanner.next()) };
+		
 		scanner.close();
 
 		Comparator<InfoPerson> nameComparator = new Comparator<InfoPerson>() {
