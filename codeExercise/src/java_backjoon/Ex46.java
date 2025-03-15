@@ -23,12 +23,12 @@ public class Ex46 {
 
         // 정렬 (금 -> 은 -> 동 순으로 내림차순)
         countries.sort((a, b) -> {
-            if (b[1] != a[1]) return Integer.compare(b[1], a[1]); // 금메달 비교
-            if (b[2] != a[2]) return Integer.compare(b[2], a[2]); // 은메달 비교
+            if (b[1] != a[1]) return Integer.compare(b[1], a[1]); // 금 비교
+            if (b[2] != a[2]) return Integer.compare(b[2], a[2]); // 은 비교
             return Integer.compare(b[3], a[3]); // 동메달 비교
         });
 
-        // 해당 국가의 순위 찾기
+        // 해당 국가 순위 찾기
         int rank = 1;
         for (int i = 0; i < countries.size(); i++) {
             if (i > 0) {
