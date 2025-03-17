@@ -15,7 +15,6 @@ public class Ex51 {
 
 		String[] N = br.readLine().split(" ");
 		int N1 = Integer.parseInt(N[0]);
-		int N2 = Integer.parseInt(N[1]);
 
 		String[] arr1 = br.readLine().split(" ");
 
