@@ -10,8 +10,8 @@ import java.util.Arrays;
 
 public class Ex51 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		String[] N = br.readLine().split(" ");
 		int N1 = Integer.parseInt(N[0]);
