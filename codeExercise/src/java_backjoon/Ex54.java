@@ -32,5 +32,7 @@ public class Ex54 {
 			}
 			System.out.println();
 		}
+		
+		sc.close();
 	}
 }
